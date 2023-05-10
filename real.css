@@ -16,13 +16,13 @@ html {
 
 .logo {
   position: relative;
-  left: -21rem;
+  left: -20rem;
   bottom: -2rem;
   height: 3rem;
 }
 .logo-1 {
   position: relative;
-  left: -21rem;
+  left: -20rem;
   bottom: -3rem;
   font-weight: 600;
 }
@@ -102,7 +102,7 @@ margin-top: 5rem;
 .parrafo-1 {
   margin: 2rem 4.5rem;
   line-height: 2rem;
-  color: #636363;
+  color: #a7a3a3;
 }
 .input-1 {
   width: 20rem;
@@ -110,11 +110,12 @@ margin-top: 5rem;
   margin: 2rem 6.5rem;
   opacity: 0.5;
   
+  
 }
 .input-1:hover{
   opacity: 1;
   cursor: pointer;
-}
+  }
 
 .search{ 
   position: relative;
@@ -165,11 +166,100 @@ margin-top: 5rem;
   justify-content: space-evenly;
   width: 85%;
 }
+
+
 .titulo-2 {
   font-size: 2.5rem;
 }
 .subtitulo{
-  color: #666666;
+  color: #a7a3a3;
   font-size: medium;
   font-weight: 400;
+}
+
+.indo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 9rem;
+  justify-content: space-between;
+}
+.indo_tit{
+  margin-left: 4.5rem;
+  font-size: 3rem;
+}
+
+.indo_p{
+  color: #a7a3a3;
+  width: 28rem;
+  margin-right: 22rem;
+  line-height: 2rem;
+}
+
+.indo_img{
+   display: flex;
+    justify-content:space-evenly;
+    width: 88%;
+    margin-top: 5rem;
+
+}
+.img_precio{
+  width: 21%;
+  
+}
+.img_precio:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.house{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin: 0 13rem 0rem 0rem;
+ 
+  
+}
+.map-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 1.5rem;
+  position: relative;
+  right: 17rem;
+}
+.ataz {
+  position: relative;
+  right: 4rem;
+}
+.qiri {
+  position: relative;
+  right: 3rem;
+}
+.qanan {
+  position: relative;
+  right: 1.5rem;
+}
+.tina{
+  position: relative;
+  left: 1rem;
+}
+
+.map{
+  margin-left: 8rem;
+}
+
+.street{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+  right: 6rem; 
+  top: -1.2rem;
+  color: #a7a3a3;
+  
+}
+.street-1:hover{
+  cursor: pointer;
+  color: black;
 }
