@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .nav {
   width: 100vw;
@@ -13,21 +16,25 @@
 
 .logo {
   position: relative;
-  left: -20rem;
+  left: -21rem;
   bottom: -2rem;
   height: 3rem;
 }
 .logo-1 {
   position: relative;
-  left: -20rem;
+  left: -21rem;
   bottom: -3rem;
   font-weight: 600;
 }
 a {
-  margin: 3rem 0.8rem;
+  margin: 3rem 0.3rem;
   text-decoration: none;
   color: #666666;
   position: relative;
+  opacity: 0.8;
+}
+a:hover{
+  opacity: 1;
 }
 
 a:hover::after {
@@ -43,11 +50,12 @@ a:hover::after {
 
 .triangulo {
   margin-top: 3rem;
+  cursor: pointer;
 }
 
 .btn-get {
   position: relative;
-  right: -15rem;
+  right: -10rem;
   bottom: -2.5rem;
   width: 10rem;
   height: 2rem;
@@ -73,4 +81,95 @@ a:hover::after {
   100% {
     transform: scale(1);
   }
+}
+.giro{
+  display: flex;
+  flex-wrap: wrap;
+}
+.caja-1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+width: 50%;
+margin-top: 5rem;
+}
+
+.titulo-1 {
+  font-size: 3.5rem;
+  margin-left: 4.5rem;
+  font-weight: 540;
+}
+.parrafo-1 {
+  margin: 2rem 4.5rem;
+  line-height: 2rem;
+  color: #636363;
+}
+.input-1 {
+  width: 20rem;
+  border: none;
+  margin: 2rem 6.5rem;
+  opacity: 0.5;
+  
+}
+.input-1:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.search{ 
+  position: relative;
+  top: -3em;
+  left: 4.5rem;
+  opacity: 0.5;
+}
+.search:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+.img-1{
+  width: 75%;
+  margin-top: 4rem;
+}
+.btn-search {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 25px;
+  color: white;
+  background-color: #3952b6;
+  border: none;
+  position: relative;
+  left: 36rem;
+  top: -5.5rem;
+}
+.btn-search:hover {
+  opacity: 1;
+  animation: boton 1s ease-in-out;
+  transition: all transfom 4s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+
+@keyframes boton {
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+.caja-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 85%;
+}
+.titulo-2 {
+  font-size: 2.5rem;
+}
+.subtitulo{
+  color: #666666;
+  font-size: medium;
+  font-weight: 400;
 }
