@@ -292,7 +292,23 @@ margin-top: 9rem;
   background-color: #ffffff;
   font-size: 1rem;
 }
+.more-2:hover {
+  opacity: 0.6;
+  animation: boton 1s ease-in-out;
+  transition: all transfom 4s ease-in-out;
+  cursor: pointer;
+  color: black;
+}
 
+@keyframes boton {
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 .vision{
   display: flex;
   flex-wrap: wrap;
