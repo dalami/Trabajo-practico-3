@@ -359,4 +359,21 @@ margin-top: 9rem;
   line-height: 2rem;
   color: #a7a3a3;
   margin-top: 1.5rem;
+
+}
+.step {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 9rem;
+  margin-right:  1rem;
+}
+.step-t{
+  font-size: 2.8rem;
+}
+.step-p{
+  width: 30rem;
+  margin-right: 7rem;
+  line-height: 2rem;
+  color: #a7a3a3;
 }
