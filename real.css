@@ -21,13 +21,13 @@ html {
 
 .logo {
   position: relative;
-  left: -20rem;
+  left: -18rem;
   bottom: -2rem;
   height: 3rem;
 }
 .logo-1 {
   position: relative;
-  left: -20rem;
+  left: -18rem;
   bottom: -3rem;
   font-weight: 600;
 }
@@ -97,6 +97,7 @@ a:hover::after {
   flex-wrap: wrap;
 width: 50%;
 margin-top: 9rem;
+padding-left: 2rem;
 }
 
 .titulo-1 {
@@ -183,6 +184,11 @@ margin-top: 9rem;
   font-size: medium;
   font-weight: 400;
 }
+.contenedor{
+  padding-left: 2rem;
+}
+  
+
 
 .indo {
   display: flex;
@@ -199,77 +205,29 @@ margin-top: 9rem;
   color: #a7a3a3;
   width: 28rem;
   margin-right: 22rem;
-  line-height: 2rem;
+  line-height: 3rem;
 }
-
-.indo_img{
-   display: flex;
-    justify-content:space-evenly;
-    width: 88%;
-    margin-top: 5rem;
-
-}
-.img_precio{
-  width: 21%;
-  
-}
-.img_precio:hover{
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-.house{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   margin: 0 13rem 0rem 0rem;
- 
-  
-}
-.map-1 {
+.casitas{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-top: 1.5rem;
-  position: relative;
-  right: 17rem;
+  padding-left: 3rem;
+  
 }
-.ataz {
-  position: relative;
-  right: 4rem;
-}
-.qiri {
-  position: relative;
-  right: 3rem;
-}
-.qanan {
-  position: relative;
-  right: 1.5rem;
-}
-.tina{
-  position: relative;
-  left: 1rem;
-}
-
-.map{
-  margin-left: 8rem;
-}
-
-.street{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  position: relative;
-  right: 6rem; 
-  top: -1.2rem;
+.geo {
+  padding-left: 1rem;
   color: #a7a3a3;
   
 }
-.street-1:hover{
+.geo:hover{
   cursor: pointer;
-  color: black;
+  opacity: 0.5;
+
 }
+.ataz{
+  padding-left: 1rem;
+}
+
 
 .more{
   display: flex;
@@ -281,6 +239,7 @@ margin-top: 9rem;
   color: #a7a3a3;
   margin-left: 4rem;
   margin-top: 4rem;
+  padding-left: 2rem;
 }
 .more-2{
   margin-left: 4.5rem;
@@ -355,10 +314,10 @@ margin-top: 9rem;
   font-weight: 450;
 }
 .mision-p{
-  width: 30rem;
+  width: 33rem;
   line-height: 2rem;
   color: #a7a3a3;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 
 }
 .step {
@@ -376,4 +335,47 @@ margin-top: 9rem;
   margin-right: 7rem;
   line-height: 2rem;
   color: #a7a3a3;
+}
+
+.view {
+  display: flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ margin-right: 1rem;
+  margin-top: 8rem;
+  padding: 0 7rem;
+}
+.uno.dos.tres.cuatro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+ 
+  
+}
+.view-p{
+  width: 16rem;
+  line-height: 2rem;
+  color: #a7a3a3;
+  margin-top: 2rem;
+}
+.num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1.5rem;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  
+}
+.view-name {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
