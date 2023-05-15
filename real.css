@@ -543,6 +543,10 @@ padding-left: 2rem;
   line-height: 2rem;
   color: #a7a3a3;
 }
+.img3{
+  display: flex;
+  flex-wrap: wrap;
+}
 .btn-dream{
   margin-top: 1.5rem;
   width: 10.5rem;
@@ -670,4 +674,15 @@ footer{
   100% {
     transform: scale(1);
   }
+}
+
+@media (max-width:30rem) {
+  .titulo-1 {font-size: 2rem; margin-top: 5rem;}
+  .vision{flex-direction: column;width: 3rem;}
+  .needs {margin-left: 4rem ;margin-top: 2rem;}
+  .dream-2 {font-size: 1rem;flex-direction: column;}
+  header{visibility: hidden;}
+  .mhan{visibility: hidden;}
+  .kang{visibility: hidden;}
+  .foot{flex-direction: column;}
 }
