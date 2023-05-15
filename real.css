@@ -21,13 +21,13 @@ html {
 
 .logo {
   position: relative;
-  left: -16rem;
+  left: -18rem;
   bottom: -2rem;
   height: 3rem;
 }
 .logo-1 {
   position: relative;
-  left: -16rem;
+  left: -18rem;
   bottom: -3rem;
   font-weight: 600;
 }
@@ -180,7 +180,7 @@ padding-left: 2rem;
   font-weight: 400;
 }
 .contenedor{
-  padding-left: 4.5rem;
+  padding-left: 3rem;
 }
 .indo {
   display: flex;
@@ -224,22 +224,26 @@ padding-left: 2rem;
 .more{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+ 
 }
 .more-1{
   color: #a7a3a3;
-  margin-left: 4rem;
+  width:60rem;
   margin-top: 4rem;
-  padding-left: 2rem;
+ 
 }
 .more-2{
-  margin-left: 4.5rem;
+  margin-left: 3rem;
   margin-top: 3rem;
+  margin-right: 12rem;
   width: 8.5rem;
   height: 3rem;
   border-radius: 25px;
   border: 1px solid black;
   background-color: #ffffff;
   font-size: 1rem;
+  
 }
 .more-2:hover {
   opacity: 0.6;
@@ -266,8 +270,8 @@ padding-left: 2rem;
   justify-content: center;
   background-color: #fafafa;
   width: 100vw;
-  padding-left: 2.5rem;
-  padding-right: 2.5;
+  
+  padding-right: 3;
 }
 .vision2{
   width: 40%;
@@ -314,7 +318,7 @@ padding-left: 2rem;
   justify-content: space-evenly;
   margin-top: 9rem;
   margin-right:  1rem;
-  padding-left: 10rem;
+  padding-left: 6rem;
 }
 .step-t{
   font-size: 2.8rem;
@@ -332,8 +336,8 @@ padding-left: 2rem;
   justify-content: space-evenly;
  
   margin-top: 8rem;
-  padding-left:10rem ;
-  padding-right: 5rem;
+  padding-left:8.5rem ;
+  padding-right: 7rem;
 }
 .uno.dos.tres.cuatro {
   display: flex;
@@ -365,7 +369,7 @@ padding-left: 2rem;
   font-weight: 600;
 }
 .more{
-  padding-left: 7.5rem;
+  padding-left: 11.3rem;
 }
 .more-3{
   padding-left: 2.5rem;
@@ -376,6 +380,7 @@ padding-left: 2rem;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 8rem;
+  margin-right: 2rem;
 }
 .needs-2{
   display: flex;
@@ -420,7 +425,7 @@ padding-left: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left:  13.3rem;
+  padding-left:  12.5rem;
   margin-top: 8rem;
 }
 .customers-t{
@@ -436,4 +441,233 @@ padding-left: 2rem;
   line-height: 2rem;
   margin-top: 1rem;
   color: #a7a3a3;
+}
+.shoo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 8.5rem;
+  margin-top: 8rem;
+  margin-right: 8rem;
+}
+
+.shoo-p{
+  width: 16.5rem;
+  line-height: 2rem;
+  color: #a7a3a3;
+  margin-bottom: 1.5rem;
+}
+
+.shoo-img{
+  border-radius: 50%;
+  width: 2.5rem;
+}
+.mhan{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.phar{
+  position: relative;
+  top: -3rem;
+}
+.dhie{
+  position: relative;
+  top: -3rem;
+  left: -1.5rem;
+}
+.thi{
+  position: relative;
+  top: -3rem;
+  left: -3rem;
+}
+.nhi{
+  position: relative;
+  top: -3rem;
+  left: -3.5rem;
+}
+.kang{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.masak{
+  position: relative;
+  top: -2rem;
+  left: -1.2rem;
+  color: #a7a3a3;
+}
+.bakso{
+  position: relative;
+  top: -2rem;
+  left: -1.4rem;
+  color: #a7a3a3;
+}
+.nogomel{
+  position: relative;
+  top: -2rem;
+  left: -2rem;
+  color: #a7a3a3;
+}
+.gombal{
+  position: relative;
+  top: -2rem;
+  left: -3.5rem;
+  color: #a7a3a3;
+}
+.dream{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 8.5rem;
+  margin-top: 6rem;
+}
+
+.dream-2{
+  margin-top: 1.5rem;
+  padding-left: 3rem;
+}
+.dream-img{
+  width: 30rem;
+}
+.dream-t{
+  font-size: 3rem;
+}
+.dream-p{
+  width: 40rem;
+  margin-top: 1.3rem;
+  line-height: 2rem;
+  color: #a7a3a3;
+}
+.btn-dream{
+  margin-top: 1.5rem;
+  width: 10.5rem;
+  height: 3rem;
+  border-radius: 35px;
+  border: none;
+  background-color: #3952b6;
+  color: white;
+}
+.btn-dream:hover {
+  opacity: 0.6;
+  animation: boton 1s ease-in-out;
+  transition: all transfom 4s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+
+@keyframes boton {
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+footer{
+  background-color: #fafafa;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 2rem;
+  margin-top: 6rem;
+}
+.foot-logo{
+  position: relative;
+  top: -1.5rem;
+  font-weight: 600;
+}
+.foot-p{
+  width: 20rem;
+  color: #a7a3a3;
+  line-height: 2rem;
+}
+.usefull{
+  display: flex;
+  flex-direction: column; 
+  margin-top: 1rem;
+}
+.usefull-5{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  
+}
+.team{
+  margin: 0.5rem 0;
+}
+.team:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+.touch{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.touch5{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.hello{
+  
+  line-height: 2rem;
+  color: #666666;
+}
+.hello:hover{
+  opacity: 0.6;
+}
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.news-5{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.in5{
+  width: 12rem;
+  height: 2.5rem;
+  border-radius: 25px;
+ border-color: #ece6e6;
+  margin-bottom: .5rem;
+}
+.in5:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+.btn-news{
+  width: 12rem;
+  height: 2.5rem;
+  border-radius: 25px;
+  border: none;
+  background-color: #3952b6;
+  color: white;
+  margin-right: 3rem;
+}
+.btn-news:hover {
+  opacity: 0.6;
+  animation: boton 1s ease-in-out;
+  transition: all transfom 4s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+
+@keyframes boton {
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
